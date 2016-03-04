@@ -1,0 +1,50 @@
+{"employees":[
+     {
+		 "firstName":"Tom", 
+		 "lastName":"Jemison", 
+		 "empID":"1051610", 
+		 "AED":"2/27/2016", 
+		 "Allocation":"NA", 
+		 "Tech":["Python","Java","Pega 7","Dell Boomi"], 
+		 "prefTech":["Python","Java"], 
+		 "Location":"Cincinnati", 
+		 "prefLocations":["Cincinnati"], 
+		 "experience":"2"
+	}
+	,{
+		"firstName":"John", 
+		"lastName":"Groves", 
+		"empID":"1051611", 
+		"AED":"12/14/2015", 
+		"Allocation":"FCA", 
+		"Tech":["Java","Pega 7","Dell Boomi"], 
+		"prefTech":["Pega","Java"], 
+		"Location":"Cincinnati", 
+		"prefLocations":["Cincinnati","Lousville"], 
+		"experience":"1"
+	}
+	,{
+		"firstName":"Parth", 
+		"lastName":"Sheth", 
+		"empID":"1051612", 
+		"AED":"1/7/2016", 
+		"Allocation":"TMA", 
+		"Tech":["Java","Pega 7","Dell Boomi"], 
+		"prefTech":["Java"], 
+		"Location":"Cincinnati", 
+		"prefLocations":["Tampa","Georgia"], 
+		"experience":"1"
+	}
+	,{
+		"firstName":"Allen",
+		"lastName":"Whitt",
+		"empID":"1051613",
+		"AED":"2/13/2016",
+		"Allocation":"Freddy Mac",
+		"Tech":["Javascript","Java","Infromatica","Dell Boomi"],
+		"prefTech":["Javascript","Java"],
+		"Location":"Cincinnati",
+		"prefLocations":["Cincinnati"], 
+		"experience":"1"
+	}
+]}
