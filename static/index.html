@@ -5,7 +5,9 @@
     <script type="text/javascript" src="./JS/angular.min.js"></script>
     <script type="text/javascript" src="./JS/app.js"></script>
   </head>
-  <body>
-    <h1></h1>
+  <body ng-controller = "BSUController as BSU">
+    <div ng-repeat = "employee in BSU.employees">
+		{{employee.firstName}}
+	</div>
   </body>
 </html>

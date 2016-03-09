@@ -1,6 +1,7 @@
 import tornado.ioloop
 import tornado.web
 import json
+import os
 
 class MainHandler(tornado.web.RequestHandler):
 	def get(self):
@@ -34,11 +35,11 @@ def writeEmployees(writeTo):
 	
 	return "Successful Update";
 
-data = json.loads(open('employees.json').read());
-#print(data[employees]);
-	
+data = json.loads(open('data/employees.json').read());
+static_path = os.path.join("..\static")
 application = tornado.web.Application([
-(r"/api/?.*", MainHandler)
+(r"/api/?.*", MainHandler),
+(r'/(.*)', tornado.web.StaticFileHandler, {'path': static_path, "default_filename": "index.html"})
 ]);
 
 application.listen(8888);
