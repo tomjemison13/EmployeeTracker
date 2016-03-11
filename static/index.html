@@ -6,8 +6,10 @@
     <script type="text/javascript" src="./JS/app.js"></script>
   </head>
   <body ng-controller = "BSUController as BSU">
-    <div ng-repeat = "employee in BSU.employees">
-		{{employee.firstName}}
-	</div>
+	<ul class="list-group">
+		<li class="list-group-item" ng-repeat = "employee in BSU.employees">
+			{{employee.firstName + " " + employee.lastName}}
+		</li>
+	</ul>
   </body>
 </html>
